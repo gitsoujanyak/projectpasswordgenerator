@@ -1,4 +1,4 @@
-#Password Generator Project
+# Password Generator Project
 
 Charmaine, Soujanya, and Matthew are tasked with the following prompt:
 
