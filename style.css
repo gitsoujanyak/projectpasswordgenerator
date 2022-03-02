@@ -1,4 +1,6 @@
+/* use universal selector to set box-sizing so elements width won't be calculated with padding + border */
 * {
+<<<<<<< HEAD
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -46,3 +48,62 @@ color: rgb(199, 199, 199);
   background-color: lightpink;
   padding: 10px;
 }
+=======
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* box around password generator text*/
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(5,4,72,1) 15%, rgba(17,0,65,1) 35%, rgba(179,184,255,1) 100%);
+    height: 100vh;
+  }
+  
+/* password generator content */
+  .passGen {
+    padding: 40px;
+    background-color: #b3b8ff;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+ 
+  /* styling for the divs containing pw, length, symbol, number, lowercase, uppercase */
+  .passGen div {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  
+  /* styling for password div */
+  .password {
+    display: none;
+    width: 280px;
+    height: 50px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    
+  }
+  
+  /* styling for password paragraph where password will appear */
+  .password p {
+    padding: 6px 10px;
+  }
+  
+  /* generate button */
+  .passGen button {
+    width: 100%;
+    border: none;
+    color: rgba(255, 255, 255, 0.699);
+    background-color: #110041;
+    padding: 10px;
+  }
+
+  /* .hide{
+    display: none; 
+  } */
+>>>>>>> 06cee780a013608a47c6251c119453ccf091b086
