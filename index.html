@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator</title>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -21,19 +21,19 @@
           </div>
           <div>
             <label for="symbol">Symbols</label>
-            <input type="checkbox" id="symbol" checked>
+            <input type="checkbox" id="symbol">
           </div>
           <div>
             <label for="number">Numbers</label>
-            <input type="checkbox" id="number" checked>
+            <input type="checkbox" id="number">
           </div>
           <div>
             <label for="lowerCase">lowercase</label>
-            <input type="checkbox" id="lowerCase" checked>
+            <input type="checkbox" id="lowerCase">
           </div>
           <div>
             <label for="upperCase">UPPERCASE</label>
-            <input type="checkbox" id="upperCase" checked>
+            <input type="checkbox" id="upperCase">
           </div>
           <button onclick="createPassword()"> Generate Password </button>
         </div>
