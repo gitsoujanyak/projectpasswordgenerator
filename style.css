@@ -8,13 +8,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #9b415c;
+    background-color: #110041;
     height: 100vh;
   }
   
   .passGen {
     padding: 40px;
-    background-color: #6f2f42;
+    background-color: #b3b8ff;
     color: white;
     font-size: 20px;
     font-family: sans-serif;
@@ -28,7 +28,7 @@
   
   .password {
     min-width: 280px;
-    background-color: #431c27;
+    background-color: #110041;
     color: rgb(199, 199, 199);
   }
   
@@ -41,6 +41,6 @@
     width: 100%;
     border: none;
     color: rgba(255, 255, 255, 0.699);
-    background-color: #2c131a;
+    background-color: #110041;
     padding: 10px;
   }
